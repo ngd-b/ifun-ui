@@ -8,7 +8,7 @@ import vueJSX from "@vitejs/plugin-vue-jsx";
 
 // rollup options
 const rollupOptions = {
-  external: ["vue", "vue-router"],
+  external: ["vue"],
   output: {
     globals: {
       vue: "Vue",
@@ -28,7 +28,9 @@ export default defineConfig({
   // 库模式，编译打包
   build: {
     rollupOptions,
-    minify: false,
+    minify: "terser",
+    sourcemap: true,
+    // brotliSize: true,
     // cssCodeSplit: true,
 
     lib: {
