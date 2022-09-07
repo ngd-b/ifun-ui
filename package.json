@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
+    "test:run": "vitest run",
     "dev": "vite",
     "build": "vite build",
     "docs:dev": "vitepress dev docs",
@@ -42,6 +43,8 @@
     "vitest": "0.21.1"
   },
   "dependencies": {
+    "@commitlint/cli": "17.0.2",
+    "@commitlint/config-conventional": "17.0.2",
     "vue": "^3.2.38"
   }
 }
