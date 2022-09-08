@@ -19,8 +19,9 @@
     "ifun",
     "ifun-ui"
   ],
-  "author": "",
+  "author": "hboot",
   "license": "MIT",
+  "homepage": "https://github.com/ngd-b/fun-ui",
   "devDependencies": {
     "@iconify-json/ic": "^1.1.9",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
