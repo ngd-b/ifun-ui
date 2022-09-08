@@ -3,6 +3,10 @@
 
 <p align='center'>日常业务组件封装及相关解决方法的组件提供。</p>
 
+<p align='center'>
+   [![CI](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml/badge.svg)](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml)
+</p>
+
 ## Features
 
 - twemoji:airplane Vue3,Vite2,pnpm,ESBuild
@@ -37,3 +41,5 @@ createApp(App).use(FunUI).mount("#app");
 IE 10 + and other browsers.
 
 ## LICENSE
+
+[MIT](./LICENSE)
