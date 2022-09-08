@@ -1,7 +1,7 @@
 <br />
-<h1 style="text-align:center;">FunUI</h1>
+<h1 align='center'>FunUI</h1>
 
-<p style="text-align:center;">日常业务组件封装及相关解决方法的组件提供。</p>
+<p align='center'>日常业务组件封装及相关解决方法的组件提供。</p>
 
 ## Features
 
