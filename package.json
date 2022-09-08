@@ -1,7 +1,7 @@
 {
-  "name": "fun-ui",
+  "name": "ifun-ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simiple UI Template.",
   "main": "index.js",
   "scripts": {
     "test": "vitest",
@@ -15,9 +15,12 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"src/**/*.vue\"",
     "prepare": "husky install"
   },
-  "keywords": [],
+  "keywords": [
+    "ifun",
+    "ifun-ui"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@iconify-json/ic": "^1.1.9",
     "@typescript-eslint/eslint-plugin": "^5.36.2",

@@ -3,9 +3,7 @@
 
 <p align='center'>日常业务组件封装及相关解决方法的组件提供。</p>
 
-<p align='center'>
-   [![CI](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml/badge.svg)](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml)
-</p>
+[![CI](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml/badge.svg)](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml)
 
 ## Features
 
