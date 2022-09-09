@@ -52,6 +52,10 @@ const config = {
     transformMode: {
       web: [/.[tj]sx$/], // 支持jsx语法
     },
+    coverage: {
+      provider: "istanbul", // 'c8'
+      reporter: ["text", "json", "html"],
+    },
   },
 };
 

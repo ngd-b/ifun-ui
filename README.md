@@ -1,11 +1,14 @@
 <br />
-<h1 align='center'>FunUI</h1>
+<h1 align='center'>IFun-UI</h1>
 
 <p align='center'>日常业务组件封装及相关解决方法的组件提供。</p>
 
 <p align='center'>
     <a href="https://github.com/ngd-b/fun-ui">
         <img src="https://img.shields.io/npm/v/ifun-ui" />
+    </a>
+    <a href="https://github.com/ngd-b/fun-ui#license">
+        <img src="https://img.shields.io/npm/l/ifun-ui" />
     </a>
 </p>
 
@@ -29,15 +32,17 @@ npm i ifun-ui
 
 ## Quick Start
 
+尽快上手，可以浏览[IFun-ui Getting Started](http://hboot.fun/ifun-ui/)
+
 ```js
 import { createApp } from "vue";
 // components
-import FunUI from "ifun-ui";
+import IFunUI from "ifun-ui";
 
 // app
 import APP from "./App.vue";
 
-createApp(App).use(FunUI).mount("#app");
+createApp(App).use(IFunUI).mount("#app");
 ```
 
 ## Broswer Support
