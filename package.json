@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A Simiple UI Template.",
   "main": "index.js",
+  "module": "./dist/ifun-ui.esm.js",
   "scripts": {
     "test": "vitest",
     "test:run": "vitest run",
@@ -29,7 +30,7 @@
   "homepage": "http://hboot.fun/ifun-ui/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/su37josephxia/smarty-admin.git"
+    "url": "git+https://github.com/ngd-b/fun-ui.git"
   },
   "devDependencies": {
     "@iconify-json/ic": "^1.1.9",

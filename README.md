@@ -13,6 +13,7 @@
 </p>
 
 [![CI](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml/badge.svg)](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/ngd-b/fun-ui/branch/main/graph/badge.svg?token=GCXJYFEYAM)](https://codecov.io/gh/ngd-b/fun-ui)
 
 ## Features
 
