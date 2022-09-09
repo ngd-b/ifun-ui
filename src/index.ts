@@ -1,7 +1,8 @@
-import { createApp } from "vue";
+import { createApp, h } from "vue";
 // components
-import FButton from "./button";
+import FButton from "./Button";
 
 import FunUI from "./entry";
+import App from "./App.vue";
 
-createApp(FButton).use(FunUI).mount("#app");
+createApp(App).use(FButton).mount("#app");

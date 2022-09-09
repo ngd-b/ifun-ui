@@ -1,13 +1,15 @@
 {
   "name": "ifun-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Simiple UI Template.",
   "main": "index.js",
   "scripts": {
     "test": "vitest",
     "test:run": "vitest run",
     "dev": "vite",
-    "build": "vite build",
+    "build": "pnpm build:components",
+    "build:all": "vite build",
+    "build:components": "esno ./scripts/build.ts",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
@@ -17,11 +19,17 @@
   },
   "keywords": [
     "ifun",
-    "ifun-ui"
+    "ifun-ui",
+    "ui",
+    "vue"
   ],
   "author": "hboot",
   "license": "MIT",
-  "homepage": "https://github.com/ngd-b/fun-ui",
+  "homepage": "https://github.com/ngd-b/fun-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/su37josephxia/smarty-admin.git"
+  },
   "devDependencies": {
     "@iconify-json/ic": "^1.1.9",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
@@ -36,12 +44,13 @@
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.4.0",
+    "esno": "^0.16.3",
     "happy-dom": "6.0.4",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "terser": "5.4.0",
     "typescript": "^4.8.2",
-    "unocss": "0.45.6",
+    "unocss": "0.33.4",
     "vite": "^3.1.0",
     "vitepress": "0.22.4",
     "vitepress-theme-demoblock": "1.4.2",
@@ -50,6 +59,7 @@
   "dependencies": {
     "@commitlint/cli": "17.0.2",
     "@commitlint/config-conventional": "17.0.2",
+    "fs-extra": "^10.1.0",
     "vue": "^3.2.38"
   }
 }

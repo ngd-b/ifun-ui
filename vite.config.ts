@@ -1,5 +1,5 @@
 /// <reference types="vitest" />
-import { defineConfig } from "vite";
+import { defineConfig, UserConfig } from "vite";
 import Unocss from "./config/unocss";
 // vue
 import vue from "@vitejs/plugin-vue";
@@ -17,7 +17,8 @@ const rollupOptions = {
 };
 
 // config vite
-export default defineConfig({
+
+const config = {
   plugins: [
     Unocss(),
     vue(),
@@ -30,17 +31,18 @@ export default defineConfig({
     rollupOptions,
     minify: "terser",
     sourcemap: true,
-    // brotliSize: true,
+    outDir: "./dist",
+    brotliSize: true,
     // cssCodeSplit: true,
 
     lib: {
       entry: "./src/entry.ts",
-      name: "FunUI",
-      fileName: "fun-ui",
+      name: "IFunUI",
+      fileName: "ifun-ui",
       // 导出
       // 增加了umd，iife 会报错 it's recommanded to set `build.cssCodeSplit` to true.
       // formats: ["esm", "umd", "iife"],
-      formats: ["es"],
+      formats: ["esm", "umd", "iife"],
     },
   },
   // 单元测试
@@ -51,4 +53,8 @@ export default defineConfig({
       web: [/.[tj]sx$/], // 支持jsx语法
     },
   },
-});
+};
+
+export { config };
+
+export default defineConfig(config as UserConfig);

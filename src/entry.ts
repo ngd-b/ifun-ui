@@ -1,6 +1,6 @@
 import { App } from "vue";
-
-import FButton from "./button";
+import "uno.css";
+import { FButton } from "./Button";
 // 单个组件导出
 export { FButton };
 
