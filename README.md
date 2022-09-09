@@ -4,16 +4,16 @@
 <p align='center'>日常业务组件封装及相关解决方法的组件提供。</p>
 
 <p align='center'>
-    <a href="https://github.com/ngd-b/fun-ui">
+    <a href="https://github.com/ngd-b/ifun-ui">
         <img src="https://img.shields.io/npm/v/ifun-ui" />
     </a>
-    <a href="https://github.com/ngd-b/fun-ui#license">
+    <a href="https://github.com/ngd-b/ifun-ui#license">
         <img src="https://img.shields.io/npm/l/ifun-ui" />
     </a>
 </p>
 
-[![CI](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml/badge.svg)](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml)
-[![codecov](https://codecov.io/gh/ngd-b/fun-ui/branch/main/graph/badge.svg?token=GCXJYFEYAM)](https://codecov.io/gh/ngd-b/fun-ui)
+[![CI](https://github.com/ngd-b/ifun-ui/actions/workflows/main.yml/badge.svg)](https://github.com/ngd-b/ifun-ui/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/ngd-b/ifun-ui/branch/main/graph/badge.svg?token=GCXJYFEYAM)](https://codecov.io/gh/ngd-b/ifun-ui)
 
 ## Features
 

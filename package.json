@@ -1,6 +1,6 @@
 {
   "name": "ifun-ui",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A Simiple UI Template.",
   "main": "index.js",
   "module": "./dist/ifun-ui.esm.js",
@@ -30,7 +30,7 @@
   "homepage": "http://hboot.fun/ifun-ui/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngd-b/fun-ui.git"
+    "url": "git+https://github.com/ngd-b/ifun-ui.git"
   },
   "devDependencies": {
     "@iconify-json/ic": "^1.1.9",
