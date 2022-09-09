@@ -10,12 +10,13 @@
     <h1>Demo,Fun-UI</h1>
     <div id="app"></div>
     <script type="module">
+        import "../../dist/Button/style.css"
         import {createApp} from 'vue/dist/vue.esm-bundler.js'
-        import FunUI,{FButton} from '../../dist/fun-ui.esm.js'
+        import FButton from '../../dist/Button/index.esm.js'
 
         createApp({
-            template:`<FButton />`
-        }).component(FButton.name,FButton).mount('#app')
+            template:`<FButton>按需加载按钮</FButton>`
+        }).use(FButton).mount('#app')
     </script>
 </body>
 </html>
