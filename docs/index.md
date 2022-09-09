@@ -1,4 +1,4 @@
-# FunUI
+# IFunUI
 
 日常业务组件封装及相关解决方法的组件提供。
 
@@ -15,7 +15,7 @@
 ## Install
 
 ```sh
-npm i fun-ui
+npm i ifun-ui
 ```
 
 ## Quick Start
@@ -23,12 +23,12 @@ npm i fun-ui
 ```js
 import { createApp } from "vue";
 // components
-import FunUI from "fun-ui";
+import IFunUI from "ifun-ui";
 
 // app
 import APP from "./App.vue";
 
-createApp(App).use(FunUI).mount("#app");
+createApp(App).use(IFunUI).mount("#app");
 ```
 
 ## Broswer Support

@@ -3,6 +3,12 @@
 
 <p align='center'>日常业务组件封装及相关解决方法的组件提供。</p>
 
+<p align='center'>
+    <a href="https://github.com/ngd-b/fun-ui">
+        <img src="https://img.shields.io/npm/v/ifun-ui" />
+    </a>
+</p>
+
 [![CI](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml/badge.svg)](https://github.com/ngd-b/fun-ui/actions/workflows/main.yml)
 
 ## Features
@@ -18,7 +24,7 @@
 ## Install
 
 ```sh
-npm i fun-ui
+npm i ifun-ui
 ```
 
 ## Quick Start
@@ -26,7 +32,7 @@ npm i fun-ui
 ```js
 import { createApp } from "vue";
 // components
-import FunUI from "fun-ui";
+import FunUI from "ifun-ui";
 
 // app
 import APP from "./App.vue";

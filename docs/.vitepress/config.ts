@@ -29,7 +29,8 @@ const sidebar = {
 
 // config
 const config = {
-  title: "Fun-UI",
+  title: "IFun-UI",
+  base: "/ifun-ui/",
   description: "业务经验，常用组件封装",
   themeConfig: { sidebar },
   markdown: {
