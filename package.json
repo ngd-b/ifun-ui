@@ -1,6 +1,6 @@
 {
   "name": "ifun-ui",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A Simiple UI Template.",
   "main": "index.js",
   "module": "./dist/ifun-ui.esm.js",

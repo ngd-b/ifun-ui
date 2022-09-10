@@ -1,0 +1,26 @@
+# git 
+.git
+.gitignore
+
+# npm
+.npmignore
+.npmrc
+npm-debug.log
+# svn
+.svn
+
+*.sh
+
+# workflows
+.github
+.eslintrc.cjs
+.eslintignore
+commitlint.config.js
+coverage
+.husky
+
+# test
+__tests__
+
+# doc
+docs
